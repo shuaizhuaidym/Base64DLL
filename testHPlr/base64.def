@@ -1,0 +1,11 @@
+LIBRARY testHPlr.dll
+EXPORTS
+
+Base64decode_len
+Base64decode
+
+Base64encode_len
+Base64encode
+
+base64_encode
+base64_decode
