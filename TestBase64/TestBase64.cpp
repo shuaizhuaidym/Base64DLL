@@ -17,8 +17,8 @@ extern "C" int __declspec(dllimport) Base64encode(char *encoded, const char *str
 
 int test_base64()
 {
-	char userName[]="张三";
-	char *pass = "JITOSAdminPass";
+	char userName[]="迈克尔·西尔维斯特·恩奇奥·史泰龙（Michael Sylvester Gardenzio Stallone）";
+	char *pass = "ppnn13%dkstFeb.1st";
 
 	int src_len = strlen(pass);
 	int dst_len = Base64encode_len(src_len);
@@ -48,7 +48,7 @@ int test_base64()
 	memset(decoded, 0, decode_len);
 	Base64decode(decoded, dst);
 
-	printf("Secret:%s\n", decoded);
+	printf("Decoded Original passwd:%s\n", decoded);
 
 	free(dst);
 	free(decoded);
