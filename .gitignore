@@ -1,0 +1,9 @@
+Debug/
+Release/
+TestBase64/Debug/
+Base64/Debug
+TestBase64/Release
+Base64/Release/
+TestBase64DynamicLink/Debug
+TestBase64DynamicLink/Release
+*.tlog
